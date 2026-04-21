@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Array List&apos; to &apos;In Class Projects&apos;&#x0D;&#x0A;- Original element: &apos;Array List&apos;&#x0D;&#x0A;- Renamed element: &apos;Array List&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Array List&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Array List" name="In Class Projects" references="true" stamp="1709911428888" version="1.0"/>
+</session>
