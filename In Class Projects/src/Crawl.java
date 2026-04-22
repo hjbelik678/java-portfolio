@@ -1,24 +1,32 @@
 import java.io.File;
 
 public class Crawl {
-	File myFile = new File("");
-	crawl(myFile);
-	
-	public static void crawl(File myfile) {
-		//this is a helper function
-		//it reduces the number of parameters needed to call a function
-		crawling(myfile, "");
-	}
-	
-	private static void crawling(File myFile, String indent) {
-		System.out.println(indent + myFile.getName());
-		
-		if(myFile.isDirectory()) {
-			for(File file : myFile.listFiles()) {
-				System.out.println("    " + indent + myFile.getName());
-				crawling(file, "    "+indent);
-			}
-		}
-	}
-	
+
+    public static void main(String[] args) {
+        // You must specify a valid path. "." means the current project folder.
+        File myFile = new File("."); 
+        crawl(myFile);
+    }
+
+    public static void crawl(File file) {
+        crawling(file, "");
+    }
+
+    private static void crawling(File myFile, String indent) {
+        // Print the file/directory name with the current indentation
+        System.out.println(indent + myFile.getName());
+
+        // If it's a directory, list the files and recurse
+        if (myFile.isDirectory()) {
+            File[] files = myFile.listFiles();
+            
+            // Good practice: check if files is null (happens with restricted folders)
+            if (files != null) {
+                for (File file : files) {
+                    // Pass a deeper indent to the next level
+                    crawling(file, indent + "    "); 
+                }
+            }
+        }
+    }
 }

@@ -3,11 +3,14 @@ import java.util.Arrays;
 public class SortMethods {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int[] a = {4, 2, 8, 34, 14, 36, 1, 6, 3};
-		Object b = mergeSort(a);
-		System.out.println(b);
-	}
+        int[] a = {4, 2, 8, 34, 14, 36, 1, 6, 3};
+        
+        // 1. Just call the method. It modifies 'a' directly.
+        mergeSort(a);
+        
+        // 2. Use Arrays.toString() to print the contents of the array.
+        System.out.println(Arrays.toString(a));
+    }
 	
 	// Rearranges the elements of a into sorted order using
 	// the merge sort algorithm.
