@@ -1,5 +1,5 @@
 
-public class mainGrocery {
+public class Grocery {
         public static void main(String[] args) {
             // Create grocery items
             GroceryItemOrder item1 = new GroceryItemOrder("Apples", 2, 1.50);

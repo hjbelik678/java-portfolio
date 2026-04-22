@@ -1,6 +1,6 @@
 //henry Belik
 
-public class mainDate { 
+public class Date { 
     public static void main(String[] args) {
 
         // March First 2024

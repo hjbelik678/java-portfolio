@@ -1,6 +1,6 @@
 //Henry Belik
 
-public class nameDate {
+public class NameDate {
     private int year;
     private int month;
     private int day;
