@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class sortMethods {
+public class SortMethods {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 //recursive coding practice
 // cleaner solution on the slides
-public class reverseLines {
+public class ReverseLines {
 	String myFile = "poem.txt";
 	Scanner josh = new Scanner(myFile);
 	

@@ -1,5 +1,5 @@
 
-public class stars {
+public class Stars {
 	
 	public static void main(String[] args) {
 		printStars(8);

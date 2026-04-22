@@ -1,5 +1,5 @@
 
-public class searchMethods {
+public class SearchMethods {
 
 	public static void main(String[] args) {
 		int[] a = {-4, 2, 7, 9, 15, 19, 25, 28, 30, 36, 42, 50, 56, 68, 85, 92};
