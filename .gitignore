@@ -1,8 +1,11 @@
-# Eclipse / build files
 bin/
+.metadata/
 .settings/
 .classpath
 .project
-
-# compiled Java
 *.class
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
